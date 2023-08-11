@@ -5,10 +5,12 @@ import Links from "../components/links/links";
 import SocialLinks from "../components/socialLinks/socialLinks";
 
 
+
 import "./App.css";
 
 import imgDarkMode from "../img/avatar.jpg";
 import imgLightMode from "../img/avatar-light.jpg";
+import Footer from "../components/footer/footer";
 
 
 const App = () => {
@@ -26,16 +28,17 @@ const App = () => {
                     <Links link={"#"}>Instagram</Links>
                     <Links link={"#"}>Portifólio</Links>
                     <Links link={"#"}>Projetos</Links>
-                    
+
                 </ul>
 
             </div>
             <div id="socialLinks">
-             <SocialLinks href={"#"} icon={"logo-github"}/>
-             <SocialLinks href={"#"} icon={"logo-instagram"}/>
-             <SocialLinks href={"#"} icon={"logo-facebook"}/>
-             <SocialLinks href={"#"} icon={"logo-twitter"}/>
+                <SocialLinks href={"#"} icon={"logo-github"} />
+                <SocialLinks href={"#"} icon={"logo-instagram"} />
+                <SocialLinks href={"#"} icon={"logo-facebook"} />
+                <SocialLinks href={"#"} icon={"logo-twitter"} />
             </div>
+            <Footer link={"#"}>@Renan </Footer>
         </div>
     );
 };
